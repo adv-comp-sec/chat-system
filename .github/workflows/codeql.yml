@@ -68,7 +68,7 @@ jobs:
 
     - run: |
          echo "Run, Build Application using script"
-         ./location_of_script_within_repo/buildscript.sh
+         cd CHAT-SYSTEM
          make all
 
     - name: Perform CodeQL Analysis
